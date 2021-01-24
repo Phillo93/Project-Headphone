@@ -1,0 +1,314 @@
+/* font-family: 'Work Sans', sans-serif; */
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #ebccc2;
+    margin: 0px;
+    background: #2e2e2e;
+}
+
+img {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+/******************************** START NAVI-TOP ********************************/
+
+.navi-top{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 50%;
+   position: fixed;
+   
+}
+
+.navi-top ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navi-top ul a {
+    color: #867772;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navi-top ul li:nth-of-type(1) {     /* Subscribe&contact */
+    padding-right: 50px;
+} 
+
+.navi-top ul li:nth-of-type(5) {     /* DE*/
+    padding-right: 100px;
+    padding-left: 50px;
+} 
+
+nav ul a:hover{
+    color: rgb(234, 204, 194);
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+#logo{                              /* LOGO */
+    padding-left: 50px;
+    display: flex;
+    position: fixed;
+}
+
+/******************************** END NAVI-TOP ********************************/
+
+/******************************** START NAVI-SIDE *****************************/
+
+.navi-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    height:100%;
+    padding-left: 5%; 
+}
+
+.navi-side a {
+    color: #867772;
+    text-decoration: none;
+}
+
+.navi-side>a:hover {
+    color: rgb(234, 204, 194);
+}
+
+
+
+/******************************** END NAVI-SIDE **********************************/
+
+
+/******************************** SECTION 1 GO BEYOND MUSIC **********************/
+
+main section h1{
+    padding: 150px 0px 100px 33%;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+#bgpic{
+    background: url("../img/section-about-1.jpg") center/contain no-repeat;
+    height: 100vh;
+}
+
+/******************************** END SECTION 1 GO BEYOND MUSIC **********************/
+
+/******************************** ARTICLE DESIGN ALCHEMY *****************************/
+
+article{
+    display: flex;
+    flex-direction: row;
+}
+
+article img{
+    width: 30%;
+    padding-top: 150px; 
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-bottom: 200px;
+}
+
+article div{
+    width: 30%;
+    padding: 13% 0 10% 0;
+    line-height: 30px
+}
+
+article h1{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+article p{
+    font-size: 1em;
+    color: rgb(115, 115, 115);
+}
+
+/******************************** END ARTICLE DESIGN ALCHEMY *****************************/
+
+/******************************** Site Experience ****************************************/
+
+.experience{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.experience div:nth-of-type(1) img{
+    height: 100vh;
+    width: 800vh;                            /* Bild ist bei 100vh oder 100% verzerrt?? als BG url kann ich es nicht komplett nach links bewegen??  mit position verschwindet es ?? weiß nicht weiter*/
+
+}      
+
+.experience div:nth-of-type(2) h1{
+    padding-left: 10%;
+    padding-bottom: 70px;
+}
+
+
+.experience div:nth-of-type(2) p{
+    padding-top: 0px;
+    padding-left: 10%;
+    font-size: 15px;
+    color:rgb(115, 115, 115);
+    width: 75%;
+    line-height: 30px;
+}
+
+/******************************** END Site Experience *****************************/
+
+/******************************** SITE LOUNGER ************************************/
+
+.lounger{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lounger div:nth-of-type(1) img{
+    height: 100vh;
+    width: 800vh;                            /* selbes problem wie bei section experinece*/
+
+}      
+
+.lounger div:nth-of-type(2) h1{
+    padding-left: 10%;
+    padding-bottom: 70px;
+}
+
+
+.lounger div:nth-of-type(2) p{
+    padding-top: 0px;
+    padding-left: 10%;
+    font-size: 15px;
+    color:rgb(115, 115, 115);
+    width: 75%;
+    line-height: 30px;
+}
+
+/******************************** END SITE LOUNGER *****************************/
+
+/******************************** SITE INSPIRATION *****************************/
+
+.inspiration div:nth-of-type(1){
+   display: flex;
+   justify-content: center;
+   padding-top: 100px;
+}
+
+.inspiration div:nth-of-type(2){
+    padding-left: 22%;
+    padding-top: 60px;
+}
+
+.inspiration div:nth-of-type(2) h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    margin:0;
+    padding-bottom: 30px;
+}
+
+.inspiration div:nth-of-type(2) h2{
+    font-size: 1em;
+}
+
+.inspiration div:nth-of-type(2) a{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    border: 2px solid rgb(234, 204, 194);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.inspiration div:nth-of-type(2) p{
+    color:rgb(115, 115, 115);
+}
+
+
+.textbild{
+    display: flex;
+}
+
+.img1{
+    width: 30%;
+    padding-left: 22%;
+    padding-top: 100px;
+}
+
+.text{
+    padding-top: 200px;
+    padding-left: 2%;
+}
+
+.text p{
+    color:rgb(115, 115, 115);
+    line-height:25px;
+}
+    
+.img2{
+    width: 30%;
+    padding-left: 3%;
+    padding-bottom: 100px;
+}
+
+.text2{
+    padding-left: 23%;
+}
+
+.text2 h2{
+    padding-top: 100px;
+}
+
+.text2 p{
+    color:rgb(115, 115, 115);
+    line-height:25px;
+}
+
+
+/******************************** END SITE INSPIRATION *****************************/
+
+/******************************** START SITE SHOP **********************************/
+
+.shop{
+    display: flex;
+}
+
+.picleft{
+    width: 50%;
+    height: 100vh;
+}
+
+
+.headphones{
+    padding-top: 50px;
+    padding-left: 20%;
+}
+
+.shop div h1{
+    padding-left: 50%;
+    font-weight: 300;
+}
+
+.shop div p{
+    padding-left: 20%;
+    padding-bottom: 10px;
+    color:rgb(115, 115, 115);
+    text-align: center;
+}
+
+.shop div a{
+    color: black; 
+    background-color: rgb(234, 204, 194);
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+
+/******************************** END SITE SHOP ***********************************/

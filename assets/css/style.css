@@ -67,18 +67,32 @@ nav ul li:hover{
     flex-direction: column;
     justify-content: space-around;
     position: fixed;
-    height:100%;
+    top: 30%;
     padding-left: 5%; 
 }
 
 .navi-side a {
     color: #867772;
     text-decoration: none;
+
 }
 
 .navi-side>a:hover {
     color: rgb(234, 204, 194);
 }
+
+.nav-line{
+    height: 100px;
+    border-left: 1px solid #867772;
+}
+
+.circle1{
+    border-radius: 100%;                    /* ?? funktioniert noch nicht */
+    border: 1PX solid #867772;
+    width: 10px;
+    height: 10px;
+}
+
 
 
 
@@ -142,7 +156,7 @@ article p{
 
 .experience div:nth-of-type(1) img{
     height: 100vh;
-    width: 800vh;                            /* Bild ist bei 100vh oder 100% verzerrt?? als BG url kann ich es nicht komplett nach links bewegen??  mit position verschwindet es ?? weiß nicht weiter*/
+    width: 800vh;                            /* Bild ist bei 100vh oder 100% verzerrt?? als BG url kann ich es nicht komplett nach links bewegen??  mit position verschwindet es ?? */
 
 }      
 
